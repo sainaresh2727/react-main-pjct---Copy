@@ -1,0 +1,435 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/* NAVBAR CSS */
+
+#Navbar{
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  padding: 28px 0px;
+  border: solid 1px white;
+  background-color: white;
+}
+#Logo{
+  margin: auto 0px;
+}
+#NavLink ul li{
+  margin: auto 0px;
+}
+#Icons i{
+ font-size: 20px;
+ margin: auto 0px;
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  margin-bottom: px;
+}
+/* ============NAVBAR CSS ENDS============= */
+/* ============HOME PAGE CSS STARTS============ */
+
+/* ============SWIPPER CSS STARTS=============*/
+
+.Swiper1{
+
+  position: relative;
+}
+.Swiper1Content{
+  position: absolute;
+  top: 220px;
+  left: 70px;
+  width: 800px;
+}
+.Swiper1>img{
+ width: 100%
+}
+.Swiper1Content>h2,h5{
+  margin-top: 30px;
+}
+.Swiper1Content>h5{
+  font-weight: normal;
+}
+.Swiper1Content>h2{
+ font-family: "Poppins", sans-serif;
+  font-size: 55px;
+  line-height:65px;
+}
+#swiperbtn{
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  margin-top: 55px;
+}
+.Swiper2>img{
+  width: 100%;
+}
+@media (max-width:720px) {
+  .Swiper1Content{
+  position: absolute;
+  top: 60px;
+  left: 22px;
+  width: 800px;
+}
+.Swiper1Content>h2{
+ font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height:35px;
+ 
+}
+#swiperbtn{
+  background-color: black;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  margin-top: 35px;
+}
+}
+/* ============SWIPPER CSS ENDS=============*/
+/* ============SECTION CSS STARTS============== */
+#section{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#sectioncard{
+  position: relative;
+  overflow: hidden;
+ 
+}
+#sectionbtn{
+  position: absolute;
+  bottom: 20px;
+  left: 35%;
+  font-weight: bold;
+  color: white;
+  border: solid 1px white;
+  padding: 5px 15px;
+  transition: 1s;
+}
+#sectionimg{
+  transition: 2s;
+}
+#sectioncard:hover{
+  #sectionbtn{
+    background-color: white;
+    color: black;
+  }
+  #sectionimg{
+    transform: scale(1.1);
+  }
+}
+#sectioncard2{
+  position:relative;
+}
+.Section1Content{
+  position: absolute;
+  margin-top: 50px;
+  left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Section1Content>h2{
+  font-weight: bold;
+  font-size: 40px;
+}
+#sectionbtn2{
+  background-color: black;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  margin-top: 20px;
+}
+#sectioncard2{
+  overflow: hidden;
+}
+#sectionimg2{
+  transition: 2s;
+}
+#sectioncard2:hover{
+  #sectionimg2{
+    transform: scale(1.1);
+  }
+ }
+@media (max-width:720px) {
+  .Section1Content{
+  position: absolute;
+  margin-top: 10px;
+  left: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Section1Content>h2{
+  font-weight: bold;
+  font-size: 20px;
+}
+#sectionbtn2{
+  background-color: black;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  margin-top: 10px;
+
+}
+}
+/* ============SECTION CSS ENDS============== */
+/* ============NEW ARRIVALS CSS STARTS======== */
+#newArrivals{
+  margin-top: 60px;
+}
+#ArrivalsCard{
+  position: relative;
+ 
+  overflow: hidden;
+}
+#ArrivalsCard h5{
+  font-size: large;
+  font-weight: normal;
+  font-family:  "Roboto", sans-serif;;
+}
+#newarrivalscardbody{
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+ 
+ }
+
+#arrivalsh3{
+  font-weight: normal;
+  color: grey;
+}
+.arrivals{
+  font-weight: bold;
+  color: black;
+}
+#arrivalsIcons{
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    transition: 2s;
+  }
+#ArrivalsCard:hover #arrivalsIcons{
+    display: flex;
+
+    }
+#arrivalsIcons i{
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 40px;
+  color: black;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ArrivalsCard #arrivalimg7{
+  transition: 2s;
+}
+#ArrivalsCard:hover #arrivalimg7{
+  transform: scale(1.1);
+}
+/* ============NEW ARRIVALS CSS ENDS======== */
+/* =============OFFERS CSS STARTS========== */
+#offers{
+  margin-top: 65px;
+}
+#offerCard{
+  position: relative;
+  border: none;
+}
+#offersContent{
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  color: white;
+}
+.percent{
+  font-family: "Poppins", sans-serif;
+  font-size: 130px;
+}
+#offerbtn1{
+  background-color: white;
+  color: black;
+}
+#offerCard2{
+  position: relative;
+  border: none;
+}
+.offersContent2{
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  color: white;
+}
+.offersContent2 h2{
+  font-weight: bold;
+  font-size: 40px;
+}
+#offerbtn2{
+  background-color: white;
+  color: black;
+  margin-top: 8px;
+}
+@media (max-width:720px) {
+  #offersContent{
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  color: white;
+}
+.percent{
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+}
+.offersContent2{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: white;
+}
+.offersContent2 h2{
+  font-weight: bold;
+  font-size: 30px;
+}
+}
+/* =============OFFERS CSS ENDS========== */
+/* =============BRAND CSS STARTS========= */
+#Brands{
+  margin-top: 60px;
+}
+/* =============BRAND CSS ENDS========= */
+/*============== BLOG CSS STARTS=========== */
+#Blog{
+  margin-top: 60px;
+}
+#BlogCard{
+  border: none;
+}
+/*============== BLOG CSS ENDS=========== */
+/* ==============FOOTER CSS STARTS =========*/
+#Footer{
+  margin-top: 60px;
+  background-color: black;
+  color: white;
+}
+#Fcontent{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+#FooterEmail{
+  padding: 12px;
+  border-radius: 20px;
+  width: 260px;
+  border: none;
+  cursor: pointer;
+}
+/* ==============FOOTER CSS ENDS =========*/
+/* =============HOME PAGE CSS ENDS========== */
+/* ==============SHOP PAGE CSS STARTS========== */
+#Select{
+  border: solid 1px grey;
+  height: 40px;
+ 
+}
+
+#Show p{
+  margin: auto 0px;
+ }
+ .Show p{
+  margin: auto 0px;
+ 
+ }
+ #ShopCart{
+  position: relative;
+  transition: 2s;
+ }
+ #ShopCart:hover #ShopsIcons{
+    display: flex;
+ }
+ #ShopsIcons{
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  top: 70px;
+  right: 30px;
+  gap: 15px;
+ 
+ }
+ #ShopsIcons i{
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 40px;
+  color: black;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+/* ==============SHOP PAGE CSS ENDS========== */
+/* ================FAGS CSS STARTS============= */
+
+/* ================FAGS CSS ENDS============= */
+/* ==============CONTACT PAGE CSS STARTS======= */
+
+#ContactIcons i{
+  background-color: black;
+  color: white;
+  height: 85px;
+  width:  85px;
+  border-radius: 85px;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+#ContactIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ContactHead .card{
+  border: none;
+}
+.Input{
+  width: 470px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.MainIn{
+  margin-top: 30px;
+}
+.MainIn input{
+  margin-top: 10px;
+}
+#btnContact{
+  background-color: black;
+  color: white;
+  height: 50px; 
+  width: 160px; 
+  border: none;
+}
+/* ==============CONTACT PAGE CSS ENDS======= */
+#Prouct1Crt{
+  border: none;
+}
